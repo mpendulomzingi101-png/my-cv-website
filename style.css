@@ -1,0 +1,83 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+header{
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+nav{
+    background-color: #444;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+nav ul li{
+    margin: 10px;
+}
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+main{
+    padding: 20px;
+    max-width: 1000px;
+    margin: auto;
+}
+
+section{
+    background: white;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2{
+    margin-bottom: 10px;
+    color: #222;
+}
+
+footer{
+    text-align: center;
+    padding: 20px;
+    background-color: #222;
+    color: white;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media (max-width: 768px){
+
+    nav ul{
+        flex-direction: column;
+        text-align: center;
+    }
+
+    header{
+        padding: 20px;
+    }
+
+    body{
+        font-size: 14px;
+    }
+}
